@@ -136,3 +136,7 @@ class ChaserBrain(Brain):
         target = enemy.world.player.cell
         return min(options, key=lambda d: manhattan(step(enemy.cell, d), target))
 ```
+
+## License
+
+[MIT](LICENSE)
